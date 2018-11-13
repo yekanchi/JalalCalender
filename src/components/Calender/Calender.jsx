@@ -16,8 +16,6 @@ class Calendar extends React.Component {
     selectedDate: moment()
   };
 
-
-
   onDateClick = (day) => {
     this.setState({
       selectedDate: day
